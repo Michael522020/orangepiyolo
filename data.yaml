@@ -1,0 +1,16 @@
+# 五类手势检测。数据在 datasets/hand-gesture-yolov8。
+# 类别顺序必须和标注 id 一致，不能按字母重排。
+# 同步修改 verify_onnx_cpu.py 与 gesture_infer.py。
+
+path: datasets/hand-gesture-yolov8
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 5
+names:
+  0: five
+  1: four
+  2: one
+  3: three
+  4: two

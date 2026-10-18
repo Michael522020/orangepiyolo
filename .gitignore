@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+datasets/
+*.om
+orange_pi_deploy.zip
+orangepiyolo_github.zip
+runs/detect/runs/gesture/yolov8n_gesture/
