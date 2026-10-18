@@ -31,7 +31,7 @@ cd D:\1016homework\orangepiyolo-upload\orangepiyolo
 dir
 ```
 
-`dir` 里应能看到 `README.md`、`报告.md`、`记忆.md`、`gesture_infer.py` 和 `weights`。这个新目录和原来的工程分开，原文件不会被删。
+`dir` 里应能看到 `README.md`、`gesture_infer.py` 和 `weights`。这个新目录和原来的工程分开，原文件不会被删。
 
 ## 3. 提交并推送
 
@@ -52,7 +52,7 @@ git push -u origin main
 
 `https://github.com/你的用户名/orangepiyolo`
 
-首页应显示 README 里的项目说明。点进 `报告.md` 可以看训练结果和板端 ATC 记录。
+首页应显示 README 里的项目说明。
 
 ## 4. 以后改了代码再传
 

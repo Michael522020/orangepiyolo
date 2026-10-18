@@ -4,9 +4,7 @@ PC 上训练 YOLOv8n，导出静态 ONNX，在 Orange Pi AI Pro 8T（昇腾 310B
 
 类别顺序：`five`、`four`、`one`、`three`、`two`。
 
-- 过程、指标和板端结果见 [报告.md](报告.md)
-- 路径、配额和不能改的约定见 [记忆.md](记忆.md)
-- 传到 Orange Pi 的步骤见 [mobaxtem_orange_pi.md](mobaxtem_orange_pi.md)
+传到 Orange Pi 的步骤见 [mobaxtem_orange_pi.md](mobaxtem_orange_pi.md)。
 
 数据集不在本仓库里。克隆 [Hand-Gesture-YOLOv8](https://github.com/dwivedi1997/Hand-Gesture-YOLOv8) 到 `datasets/hand-gesture-yolov8` 后再训练。
 
